@@ -35,5 +35,5 @@ func NewAdapter(driverName, dataSource string, log *logrus.Logger) (*Adapter, er
 
 
 func (dba Adapter) Ping() (string, error) {
-	return "pong", nil
+	return "pong to you my friend", nil
 }

@@ -1,6 +1,8 @@
 package ping
 
-import "github.com/sirupsen/logrus"
+import (
+	"github.com/sirupsen/logrus"
+)
 
 type Adapter struct {
 	log *logrus.Logger
